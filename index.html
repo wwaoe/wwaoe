@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="img/chat-heart.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="img/icons8-сокращение.svg" alt="логотип" height="70px">
+        <h1>ЕВГЕНИЙ КАСПЕРСКИЙ</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Введение</a></li>
+                <li><a href="#articles">Информация</a></li>
+                <li><a href="#form">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Введение</h2>
+            <img width="300px" src="img/speaker-3_mob.jpg" alt="Евгкний Касперский">
+            <p>Евге́ний Валенти́нович Каспе́рский (род. 4 октября 1965, Новороссийск, Краснодарский край) — российский программист, один из ведущих мировых специалистов в сфере информационной безопасности и предприниматель. Один из основателей, основной владелец и нынешний глава АО «Лаборатория Касперского» — международной компании, занимающейся разработкой решений для обеспечения IT-безопасности, имеющей более 30 региональных офисов и ведущей продажи в 200 странах. Лауреат Государственной премии в области науки и технологий за 2008 год.</p>
+            <p>Евгений Касперский в течение нескольких лет открыто высказывает опасения по поводу угрозы кибератаки на критически важные объекты инфраструктуры, которая может привести к катастрофическим последствиям. Он поддерживает идею соглашения о нераспространении кибероружия, считая, что мировое сообщество должно положить конец гонке кибервооружений.
+            В ходе своих поездок по всему миру Евгений Касперский регулярно делает доклады об опасностях, которые несут в себе кибервойны, и необходимости противодействовать эскалации киберугроз на глобальном уровне. Он рассматривает просвещение в области кибербезопасности в качестве ключевого условия для успешной борьбы с киберугрозами. Это касается как рядовых пользователей, так и специалистов в области IT-безопасности, которым зачастую не хватает квалификации. Евгений также активно поддерживает идею всеобщей стандартизации и принятия единых политик в области кибербезопасности, а также идею сотрудничества между государственными органами и компаниями, работающими в индустрии IT-безопасности.</p>
+            <p><blockquote cite="https://web.archive.org/web/20131020032507/http://www.techweekeurope.co.uk/news/kaspersky-uk-government-cyber-attack-warning-114504">
+            Частными компаниями — особенно в IT-индустрии и отраслях, связанных с безопасностью, а также в некоторых стратегически важных отраслях, для которых IT-безопасность является важнейшим приоритетом — накоплен огромный практический опыт борьбы с киберугрозами, который государство могло бы использовать чрезвычайно успешно.
+            <cite> Kaspersky Warns UK Government Of ‘Catastrophic’ Cyber Attack.</cite>
+            </blockquote></p>
+        </section>
+        <section id="articles">
+            <h2>Информация</h2>
+            <ol id="info">
+                <li><a href="article1.html">Биография</a></li>
+                <li><a href="article2.html">Основные достижения</a></li>
+                <li><a href="article3.html">Интересные факты</a></li>
+                <li class="important"><a href="article4.html">Список терминов</a></li>
+            </ol>
+        </section>
+        <section id="form">
+            <h2>Обратная связь</h2>
+            <form id="contact-form" action="">
+        <div class="form_item">
+            <label for="topic">Тема</label><br>
+                <select name="topic" id="topic" required>
+                    <option value="1">Заказать услугу</option>
+                    <option value="2">Оставить отзыв/замечание</option>
+                    <option value="3">Предложить сотрудничество</option>
+                    <option value="4">Другое</option>
+                </select>
+        
+        </div>
+        <div class="form_item">
+            <label for="text">Имя</label><br>
+            <input type="text" placeholder="Ваше имя" required><br>
+        </div>  
+        <div class="form_item">
+            <label for="text">E.mail</label><br>
+            <input type="text" id="email" placeholder="Ваш E.mail" required><br>
+        </div> 
+        <div class="form-item">
+            <label for="tel">Номер телефона</label><br>
+            <input type="tel" placeholder="Вашм номер телефона" required><br>
+        </div>
+        <div>
+            <label for="comment">Текст сообщения</label><br>
+        <textarea id="comment" placeholder="Ваш комментарий" required></textarea><br>
+        </div>
+        <div class="form-item">
+            <label for="date">Дата</label><br>
+            <input type="date" required><br>
+        </div>
+        <div class="form_item">
+            <input type="submit">
+        </div> 
+    </form>
+    <table class="table1">
+        <caption> Общая информация</caption>
+        <thead>
+            <tr>
+                <th>Параметр</th>
+                <th>Биографические сведения</th>
+                <th>Профессиональная деятельность</th>
+                <th>Вклад в развитие отрасли</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Дата рождения</td>
+                <td>4 октября 1965 года</td>
+                <td>Основатель и генеральный директор «Лаборатории Касперского»</td>
+                <td>Разработка инновационных антивирусных технологий</td>
+            </tr>
+            <tr>
+                <td>2.1</td>
+                <td>2.2</td>
+                <td>2.3</td>
+                <td>2.4</td>
+            </tr>
+            <tr>
+                <td>Образование</td>
+                <td>Высшее техническое</td>
+                <td>Создание одного из ведущих мировых производителей антивирусного ПО</td>
+                <td>Внедрение новых методов обнаружения и борьбы с вирусами</td>
+            </tr>
+            <tr>
+                <td>Ключевые достижения</td>
+                <td>Специалист в области информационной безопасности</td>
+                <td>Разработка первых антивирусных программ в России</td>
+                <td>Создание международных стандартов кибербезопасности</td>
+            </tr>
+            <tr>
+                <td>Международное признание</td>
+                <td>Признанный эксперт в сфере IT-безопасности</td>
+                <td>Участие в крупнейших международных проектах</td>
+                <td>Награды и признание профессионального сообщества</td>
+            </tr>
+            <tr>
+                <td>Текущие проекты</td>
+                <td>Активное развитие в сфере кибербезопасности</td>
+                <td>Руководство компанией и разработка новых продуктов</td>
+                <td>Расширение глобального присутствия компании</td>
+            </tr>
+        </tbody>
+    </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;
+            <a href="https://portal.midis.info/company/personal/user/21583/" target="_blank">Галямова Софья Дмитриевна</a>, 2025г.</p>
+        <p>Вы можете найти меня здесь:
+            <a href="mailto:galyamovaS@gmail.com">galyamovaS@gmail.com</a>
+            <a href="tel:+79006786578">+79006786578</a>
+        </p>
+        <a href="@hdbyeu" target="_blank">
+            <img src="img/cursor.svg" alt="телега">
+        </a>
+        <a href="@wwaoe" target="_blank">
+            <img src="img/discord.svg" alt="дс">
+        </a>
+        <a href="https://www.kaspersky.ru/" target="_blank">
+            <img src="img/book-half.svg" alt="Касперский">
+        </a>
+    </footer>
+</body>
+
+</html>
+

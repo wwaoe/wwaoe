@@ -1,0 +1,275 @@
+*{margin: 0;padding: 0;}
+/* .marck-script-regular {
+  font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+body {
+    background-color: rgb(250, 225, 245);
+}
+
+header {
+    background-color: rgb(230, 176, 218);
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer {
+    background-color: rgb(230, 176, 218);
+    padding: 1.5rem;
+}
+h2 {
+    text-align: center;
+    font-size: 2[em];
+   font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+#articles {
+    background-color: rgba(243, 195, 233, 0.836);
+}
+#about{
+    text-align: center;
+    padding: 2rem;
+}
+#about p{
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(255, 0, 0);
+    color: white;
+}
+p{
+    text-align: justify;
+    padding: 2.5rem;
+    font-size: 1.5em;
+    line-height: 2em;
+    color: black;
+
+}
+html{
+    font-size: 1.5em;
+    font-family: "Bad Script", cursive;
+}
+time{
+    text-align: center;
+}
+ul{
+    padding: 2.5rem;
+}
+ol{
+    padding: 2.5rem;
+}
+h1{
+    text-align: center;
+    font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+#contentttt{
+    text-align: justify;
+    padding: 2.5rem;
+    font-size: 1.5em;
+    line-height: 2em;
+}
+img{
+    border: deeppink;
+    box-shadow: inset;
+}
+
+a:link{
+    color: rgb(112, 12, 67);
+}
+a:visited{
+    color: rgb(116, 42, 165);
+}
+a:hover{
+    color: rgb(206, 223, 144);
+}
+a:focus{
+    color: blueviolet;
+}
+a:active{
+    color: rgb(255, 0, 242);
+} 
+figure img{
+    border: blueviolet 10px dotted;
+    
+}
+figure{
+    text-align: center;
+}
+footer img{
+    height: 50px;
+    margin: 2.5rem;
+    border: groove;
+}
+a{
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
+}
+li a:focus{
+    text-decoration: underline;
+}
+#info li:nth-child(odd){
+    list-style-position: inside;
+}
+.important::after{
+    content: "Важно!";
+    margin-left: 10px;
+    font-size: 12px;
+    background-color: rgb(230, 176, 218);
+}
+p::first-line{
+    letter-spacing: 5px;
+}
+p:lang(en){
+    font-style: italic;
+}
+nav ul{
+    list-style: none;
+}
+img+p{
+    padding-top: 4em;
+}
+.table1{
+    border-collapse:collapse;
+    border: 3px rgb(112, 12, 67) solid;
+    margin: 0 auto;
+}
+.table1 td,
+.table1 th{
+    border: 2px rgb(112, 12, 67) solid;
+}
+tr:nth-child(odd){
+    background-color:rgba(228, 129, 206, 0.836);
+}
+#contact-form input[type="text"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgb(112, 12, 67) solid 1px;
+    background-color: rgba(243, 195, 233, 0.836);
+}
+#contact-form input[type="date"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgb(112, 12, 67) solid 1px;
+    background-color: rgba(243, 195, 233, 0.836);
+    color: rgb(112, 12, 67);
+}
+#contact-form input[type="tel"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgb(112, 12, 67) solid 1px;
+    background-color: rgba(243, 195, 233, 0.836)
+}
+#contact-form input[type="submit"]{
+    height: 25px;
+    width: 100px;
+    background-color: rgba(228, 129, 206, 0.836);
+    border: rgb(112, 12, 67) solid 1px;
+}
+#contact-form input.email{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgb(112, 12, 67) solid 1px;
+    background-color: rgba(243, 195, 233, 0.836);
+}
+#contact-form input[type="submit"]:hover{
+    background-color: rgba(243, 195, 233, 0.836);
+    border: rgb(112, 12, 67) solid 1px;
+}
+#contact-form textarea{
+border-radius: 5px;
+padding: 5px 10px;
+background-color: rgba(243, 195, 233, 0.836);
+border: 1px solid rgba(228, 129, 206, 0.836);
+margin-top: 10px;
+margin-bottom: 10px;
+height: 100px;
+}
+#contact-form select{
+    background-color: rgba(243, 195, 233, 0.836);
+    color: rgba(228, 129, 206, 0.836);
+    border: rgb(112, 12, 67) solid 1px;
+}
+/*
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: blueviolet;
+}
+ nav a:hover{
+    text-decoration: overline;
+}  */
+/*  
+#articles li:nth-child(odd){
+    color: blue;
+}  */
+/* 
+h2::after{
+    content: "new";
+    margin-left: 10px;
+    font-size: 12px;
+    background-color: blueviolet;
+} */
+
+
+
+
+/* #form-example {
+    background-color: cadetblue;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 25px;
+    color: azure;
+}
+#form-example input {
+border-radius: 5px;
+padding: 5px 10px;
+background-color: rgb(112, 210, 228);
+border: 1px solid rgb(20, 71, 138);
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+#form-example input[type=submit]{
+    background-color: rgb(63, 144, 182);
+    color: azure;
+    border: rgb(20, 71, 138) 1px solid;
+}
+#form-example input[type=reset]{
+    background-color: darkgrey;
+    color: azure;
+}
+#form-example input[type=radio]{
+    accent-color: rgb(63, 144, 182);
+    height: 30px;
+}
+#form-example textarea{
+border-radius: 5px;
+padding: 5px 10px;
+background-color: rgb(112, 210, 228);
+border: 1px solid rgb(20, 71, 138);
+margin-top: 10px;
+margin-bottom: 10px;
+height: 100px;
+}
+#form-example select{
+    background-color: rgb(63, 144, 182);
+    color: azure
+}
+#form-example textarea[disabled]{
+background-color: darkgray;
+border: gray 1px solid;
+} */
